@@ -10,6 +10,7 @@ public class ch04_02 {
 
 		ch04_02 ch = new ch04_02();
 		ch.ch04_02ex1();
+		// 입력값 5, 출력값 11475 
 	}
 	
 	public void ch04_02ex1() {
