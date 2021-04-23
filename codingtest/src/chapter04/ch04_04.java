@@ -193,13 +193,11 @@ public class ch04_04 {
 		
 	}
 	
-	public int turnPlayer(int playerDir) {
+	public void turnPlayer(int playerDir) {
 		playerDir -= 1;
 		
 		if (playerDir < 0) {
 			playerDir = 3;
 		}
-		
-		return playerDir;
 	}
 }
